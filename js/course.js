@@ -4,7 +4,7 @@
 
         // đọc dữ liệu ngay khi tải trang xong
 		
-        $.get("http://demo6370041.mockable.io/getcourses", function(data, status){
+        $.get("https://demo6370041.mockable.io/getcourses", function(data, status){
 
 			
             for (var i = 0; i < data.data.length; i++) {
